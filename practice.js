@@ -2,7 +2,7 @@
 
 a = 9
 
-if a == 10; 
-console.log (0);
-els console.log (-1);
-ende 
+if a == 10;
+return 0
+else 
+console.log (-1);

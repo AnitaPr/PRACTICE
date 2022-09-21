@@ -39,3 +39,13 @@
 #   p 1
 # else p -1
 # end 
+
+# 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+p "Enter your name: "
+
+name = gets.chomp
+
+if name != "Santa"
+p "You're not Santa."
+end 
